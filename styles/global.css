@@ -25,3 +25,23 @@ body {
     font: var(--text);
     color: var(--text-color-secondary)
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container {
+    padding-inline: 32px;
+    margin-inline: auto;
+    max-width: 1280px;
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
